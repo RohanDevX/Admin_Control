@@ -1,0 +1,30 @@
+:root {
+  --brand: #234078;
+  --brand-light: #365fa0;
+  --text: #212121;
+  --muted: #6c6c6c;
+  --bg: #f9fafc;
+  --border: #e0e6ed;
+  font-family: "Inter", system-ui, sans-serif;
+}
+/* reset */
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);}
+
+a{color:var(--brand);text-decoration:none;}
+input,select,textarea{
+  padding:.55rem .8rem;border:1px solid var(--border);border-radius:6px;
+  font:inherit;width:100%;
+}
+label{    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--royal-red);}
+button{
+  background:var(--brand);color:#fff;border:none;border-radius:6px;
+  padding:.6rem 1.4rem;font-weight:600;cursor:pointer;
+}
+button:disabled{opacity:.5;cursor:not-allowed;}
+.card{
+  background:#fff;border:1px solid var(--border);border-radius:10px;
+  padding:2rem;box-shadow:0 4px 10px rgba(0,0,0,.03);
+}

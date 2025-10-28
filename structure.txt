@@ -1,0 +1,34 @@
+backend
+├── .dockerignore
+├── .env
+├── Controllers
+│   ├── communityController.js
+│   ├── eventController.js
+│   └── user_controle.js
+├── Model
+│   ├── communityModel.js
+│   └── eventModel.js
+├── Routes
+│   ├── auth.js
+│   ├── communityRoutes.js
+│   ├── eventRoutes.js
+│   └── users.js
+├── Schema.sql
+├── Services
+│   ├── db.js
+│   └── logger.js
+├── dockerfile
+├── index.js
+├── lib
+│   └── apikey.js
+├── middleware
+│   └── jwt.js
+├── node_modules
+├── package-lock.json
+├── package.json
+├── tmp
+└── uploads
+    ├── community-images
+    └── event-images
+        ├── 1754280193742-event_image.jpg
+        └── 1754325731188-event_image.png
